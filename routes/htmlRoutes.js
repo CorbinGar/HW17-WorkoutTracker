@@ -1,6 +1,8 @@
 
 const path = require("path")
 
+// gotta love that autoformat
+
 module.exports = (app) => {
     app.get("/", (req, res) => {
         res.sendFile(path.join(__dirname, "../public/index.html"))
